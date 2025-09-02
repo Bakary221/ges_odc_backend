@@ -1,0 +1,1 @@
+{"version":3,"file":"CompetencesModel.js","sourceRoot":"","sources":["../../src/models/CompetencesModel.ts"],"names":[],"mappings":";;;AAAA,6BAAwB;AAEX,QAAA,iBAAiB,GAAG,OAAC,CAAC,MAAM,CAAC;IACtC,WAAW,EAAE,OAAC,CAAC,MAAM,EAAE,CAAC,GAAG,CAAC,CAAC,CAAC;IAC9B,SAAS,EAAE,OAAC,CAAC,MAAM,EAAE;CACxB,CAAC,CAAC"}

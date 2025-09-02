@@ -68,7 +68,7 @@ model Niveaux {
 
 model Competence {
   id           Int           @id @default(autoincrement())
-  description  String
+  description  String        @unique
   niveauxId    Int?
   niveaux      Niveaux?      @relation(fields: [niveauxId], references: [id])
 
@@ -79,7 +79,7 @@ model Competence {
 
 model Referentiel {
   id           Int           @id @default(autoincrement())
-  nom          String
+  nom          String        @unique
 
   promotions   RefPromo[]
   utilisateurs Utilisateur[]

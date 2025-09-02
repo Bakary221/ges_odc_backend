@@ -10,6 +10,24 @@ var ErrorCodes;
     // tags
     ErrorCodes["TAG_NOT_FOUND"] = "tag introuvable";
     ErrorCodes["TAG_ALREADY_EXISTS"] = "tag d\u00E9j\u00E0 existant";
+    // competences
+    ErrorCodes["COMPETENCE_NOT_FOUND"] = "tag introuvable";
+    ErrorCodes["COMPETENCE_ALREADY_EXISTS"] = "tag d\u00E9j\u00E0 existant";
+    // referentiels
+    ErrorCodes["REFERENTIEL_NOT_FOUND"] = "Referentiel introuvable";
+    ErrorCodes["REFERENTIEL_ALREADY_EXISTS"] = "Referentiel d\u00E9j\u00E0 existant";
+    // profils
+    ErrorCodes["PROFILE_NOT_FOUND"] = "Profil introuvable";
+    ErrorCodes["PROFILE_ALREADY_EXISTS"] = "Profil d\u00E9j\u00E0 existant";
+    // promos
+    ErrorCodes["PROMO_NOT_FOUND"] = "Promo introuvable";
+    ErrorCodes["PROMO_ALREADY_EXISTS"] = "Promo d\u00E9j\u00E0 existante";
+    // niveaux
+    ErrorCodes["NIVEAU_NOT_FOUND"] = "Niveau introuvable";
+    ErrorCodes["NIVEAU_ALREADY_EXISTS"] = "Niveau d\u00E9j\u00E0 existant";
+    // profils de sortie
+    ErrorCodes["PROFIL_SORTIE_NOT_FOUND"] = "Profil de sortie introuvable";
+    ErrorCodes["PROFIL_SORTIE_ALREADY_EXISTS"] = "Profil de sortie d\u00E9j\u00E0 existant";
 })(ErrorCodes || (exports.ErrorCodes = ErrorCodes = {}));
 var HttpCode;
 (function (HttpCode) {

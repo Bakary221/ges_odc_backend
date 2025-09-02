@@ -7,6 +7,7 @@
     "dev": "nodemon src/server.ts",
     "build": "tsc -w",
     "prisma:migrate": "npx prisma migrate dev --name init",
+    "prisma:seed": "npx ts-node src/seeders/seeds.ts",
     "start": "node dist/index.js"
   },
   "keywords": [],
